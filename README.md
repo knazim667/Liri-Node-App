@@ -21,5 +21,6 @@ Type in node liri.js to get the instructions on how to enter the commands correc
 
 Example For Twitter:-
 
+![picture](images/tweets.png)
 
 
