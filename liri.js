@@ -10,9 +10,9 @@ var liriArgument = process.argv[2];
 // create a arguments for Liri app
 switch (liriArgument){
     case "my-tweets" : myTweets(); break;
-
     case "movie-this" : getMovie(); break;
     case "spotify-this-song" : getSong(); break;
+    case "do-what-it-says" : doWhatItSays();break;
 
     default: console.log("\r\n" + "try typing one of the following command after'node index.js' : "+"\r\n" +
     "1. my-tweets 'any twitter name' " + "\r\n" + 
@@ -36,7 +36,7 @@ function goData(err, data, response) {
     var tweets = data.statuses;
 
     if(!err){
-    for (var i = 0; i < tweets.length; i++){
+    for (var i = 0; i < 5; i++){
 
         var twitterResult = "@" + tweets[i].user.screen_name + ": " + tweets[i].text + "\r\n" + tweets[i].created_at + "\r\n" +
         "-------------------------------- " + i + " -------------------------------------" + "\r\n";
@@ -50,7 +50,7 @@ function goData(err, data, response) {
   };
 }
 
-// omdbi
+// omdbi function
 
 function getMovie() {
 var movie = process.argv[3];
@@ -148,3 +148,15 @@ function logResults(data){
             logResults(data);
       });
   };
+
+  // Do What It Says function, uses the reads and writes module to access the random.txt file and do what's written in it
+	function doWhatItSays() {
+		fs.readFile("random.txt", "utf8", function(error, data){
+			if (!error) {
+				doWhatItSaysResults = data.split(",");
+				getSong(doWhatItSaysResults[0], doWhatItSaysResults[1]);
+			} else {
+				console.log("Error occurred" + error);
+			}
+		});
+	};

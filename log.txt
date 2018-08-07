@@ -12,4 +12,12 @@ Language: English
 Plot: Steven Matrix is one of the underworld's foremost hitmen until his luck runs out, and someone puts a contract out on him. Shot in the forehead by a .22 pistol, Matrix "dies" and finds ...
 Actors: Nick Mancuso, Phillip Jarrett, Carrie-Anne Moss, John Vernon
 ------------------------------ end ------------------------------
+[object Object]Artist: Jeremih
+Song name: The Light
+Album Name: The Light
+Preview Link: null
+[object Object]Artist: The Light the Heat
+Song name: Your Love Is My Home
+Album Name: Your Love Is My Home
+Preview Link: https://p.scdn.co/mp3-preview/b6ddd21c80c398f5a89478e5e66d53dc6720b9a1?cid=dcf96b8c9f1345a1ada7572c9b85257b
 [object Object]
