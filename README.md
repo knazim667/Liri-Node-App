@@ -19,4 +19,4 @@ Type in node liri.js to get the instructions on how to enter the commands correc
 
 Example for Twitter :-
 
-![picture](images/tweets.png)
+
