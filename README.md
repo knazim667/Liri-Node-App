@@ -22,3 +22,9 @@ Type in node liri.js to get the instructions on how to enter the commands correc
 Example for Twitter :-
 
 ![picture](images/tweets.png)
+
+node liri.js my-tweets 'any name'
+
+![picture](images/spotify.png)
+
+node liri.js spotify-this-song 'song name'
