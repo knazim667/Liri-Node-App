@@ -20,4 +20,26 @@ Preview Link: null
 Song name: Your Love Is My Home
 Album Name: Your Love Is My Home
 Preview Link: https://p.scdn.co/mp3-preview/b6ddd21c80c398f5a89478e5e66d53dc6720b9a1?cid=dcf96b8c9f1345a1ada7572c9b85257b
+[object Object]Artist: Khalid
+Song name: Love Lies (with Normani)
+Album Name: Love Lies (with Normani)
+Preview Link: https://p.scdn.co/mp3-preview/d53d5678b946219bd6df0b3d04ce0b3554f167d4?cid=dcf96b8c9f1345a1ada7572c9b85257b
+[object Object]------------------------------ begin ------------------------------
+Title: The Antman
+Year: 2002
+Imdb Rating: 5.7
+Rotten Tomatoes Rating: N/A
+Country: Germany
+Language: German
+Plot: N/A
+Actors: Götz Otto, Yasmina Filali, Lars Rudolph, Elisabeth Volkmann
+------------------------------ end ------------------------------
+[object Object]Artist: Jeremih
+Song name: The Light
+Album Name: The Light
+Preview Link: null
+[object Object]Artist: Jeremih
+Song name: The Light
+Album Name: The Light
+Preview Link: null
 [object Object]
