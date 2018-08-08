@@ -25,6 +25,31 @@ Example for Twitter :-
 
 node liri.js my-tweets 'any name'
 
+Example for Spotify :-
+
 ![picture](images/spotify.png)
 
 node liri.js spotify-this-song 'song name'
+
+Example for Movie :-
+
+![picture](images/movie-this.png)
+
+node liri.js movie-this 'movie name'
+
+
+These are the npm packages I used and are needed to run the app
+
+fs package in node
+twitter
+spotify
+request
+
+
+to install these npm packages run these commands one at a time.
+
+npm install twitter
+npm install spotify
+npm install request
+
+
