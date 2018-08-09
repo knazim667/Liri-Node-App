@@ -40,16 +40,16 @@ node liri.js movie-this 'movie name'
 
 These are the npm packages I used and are needed to run the app
 
-fs package in node
-twitter
-spotify
-request
+1 .fs package in node
+2 .twitter
+3 .spotify
+4 .request
 
 
 to install these npm packages run these commands one at a time.
 
-npm install twitter
-npm install spotify
-npm install request
+1 . npm install twitter
+2 . npm install spotify
+3 . npm install request
 
 
