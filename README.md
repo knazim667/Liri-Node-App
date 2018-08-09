@@ -33,7 +33,7 @@ node liri.js spotify-this-song 'song name'
 
 Example for Movie :-
 
-![picture](images/movie-this.png)
+![picture](images/Movie-this.png)
 
 node liri.js movie-this 'movie name'
 
