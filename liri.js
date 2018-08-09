@@ -124,9 +124,13 @@ function logResults(data){
       //call back to spotify
 
       spotify.search({ type: 'track', query: songName}, function(err, data){
+          console.log(data);
           if (err) {
               return console.log('Error occurred: ' + err);
           }
+          for (i = 0; i < 5; i++){
+
+          
             var songResult =
             "------------------------------ begin ------------------------------" + "\r\n" +
             "Artist: " + data.tracks.items[0].artists[0].name + "\r\n" +
@@ -146,6 +150,7 @@ function logResults(data){
             });
             
             logResults(data);
+        };
       });
   };
 
