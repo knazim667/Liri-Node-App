@@ -67,7 +67,9 @@ request(queryUrl, function(error, response, body) {
     if(!error && response.statusCode === 200){
         var movieObject = JSON.parse(body);
        // console.log(movieObject);
+        for (i =0; i < 5; i++) {
 
+        
        var movieResults = 
         "------------------------------ begin ------------------------------" + "\r\n" +
         "Title: " + movieObject.Title+"\r\n"+
@@ -80,6 +82,7 @@ request(queryUrl, function(error, response, body) {
         "Actors: " + movieObject.Actors+"\r\n"+
         "------------------------------ end ------------------------------" + "\r\n";
         console.log(movieResults);
+        };
 
         // Append movie results to log.txt file 
         fs.appendFile('log.txt', movieResults, function(err){
@@ -92,7 +95,8 @@ request(queryUrl, function(error, response, body) {
 
             console.log("Error : " + error);
             return;
-    }
+
+    };
 });
 
 };
