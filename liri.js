@@ -14,7 +14,7 @@ switch (liriArgument){
     case "spotify-this-song" : getSong(); break;
     case "do-what-it-says" : doWhatItSays();break;
 
-    default: console.log("\r\n" + "try typing one of the following command after'node index.js' : "+"\r\n" +
+    default: console.log("\r\n" + "try typing one of the following command after'node liri.js' : "+"\r\n" +
     "1. my-tweets 'any twitter name' " + "\r\n" + 
     "2. movie-this 'any movie name' " + "\r\n" + 
     "3. spotify-this-song 'any song' " + "\r\n");
@@ -36,7 +36,7 @@ function goData(err, data, response) {
     var tweets = data.statuses;
 
     if(!err){
-    for (var i = 0; i < 5; i++){
+    for (var i = 0; i < 10; i++){
 
         var twitterResult = "@" + tweets[i].user.screen_name + ": " + tweets[i].text + "\r\n" + tweets[i].created_at + "\r\n" +
         "-------------------------------- " + i + " -------------------------------------" + "\r\n";
